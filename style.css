@@ -1,0 +1,130 @@
+
+body{
+    background-image: url(./fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+
+#container {
+    
+    
+    text-align: center;
+    display: flex;
+}
+
+#imgpata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc117;
+}
+
+#imgpata img {
+
+    width: 100px; 
+    height: auto;
+    margin-right: 20px;
+}
+
+#imgpata h1 {
+    margin-left: 20px; 
+    font-size: 24px;
+    color: #333;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+#inputs {
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+input {
+    padding: 8px;
+    font-size: 14px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Flex container to align form and table side by side */
+#main-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Style the table container */
+.agendamento-container {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* Table styling */
+.agendamento {
+    width: 100%;
+    margin-left: 100px;
+    border-collapse: collapse;
+   
+}
+
+.agendamento th, .agendamento td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.agendamento th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.agendamento tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.agendamento tr:hover {
+    background-color: #e0e0e0;
+}
+
+.agendamento td button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.agendamento td button:hover {
+    background-color: #d32f2f;
+}

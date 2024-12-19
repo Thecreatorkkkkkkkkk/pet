@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Banho e Tosa</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="imgpata">
+        <img src="/petshop.png" width="100" height="auto">
+        <h1>AGENDAMENTO DE BANHO E TOSA</h1>
+    </div>
+    <div id="container">
+        <div id="form">
+            <form id="agendamentoForm">
+                <input type="text" id="nomePet" placeholder="Nome do pet" required><br>
+                <input type="text" id="racapet" placeholder="Raça" required><br>
+                <input type="text" id="donopet" placeholder="Dono do pet" required><br>
+                <input type="tel" id="telefoneDono" placeholder="Telefone do dono" required><br>
+                <button type="button" onclick="agendar()">Agendar</button>
+            </form>
+        </div>
+        <div>
+            <table class="agendamento" id="tabelaAgendamentos">
+                <tr>
+                    <th>ID</th>
+                    <th>Nome do Pet</th>
+                    <th>Raça</th>
+                    <th>Dono do Pet</th>
+                    <th>Telefone do Dono</th>
+                    <th>Remover</th>
+                </tr>
+            </table>
+            <img src="./petshop-removebg-preview.png">
+        </div>
+    </div>
+
+    <script src="estruturas.js"></script>
+</body>
+
+</html>
